@@ -4,12 +4,12 @@ def sum_of_three_numbers():
     num1 = float(input("Enter the first number: "))
     num2 = float(input("Enter the second number: "))
     num3 = float(input("Enter the third number: "))
+    num4 = float(input("Enter the third number: "))
     
     # Calculate the sum
-    total = num1 + num2 + num3
-    
+    total = num1 + num2 + num3 + num4
     # Output the sum
     print("The sum of the three numbers is:", total)
 
 # Call the function
-sum_of_three_numbers()
+sum_of_three_numbers()6
